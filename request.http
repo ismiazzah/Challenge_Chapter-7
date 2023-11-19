@@ -1,0 +1,29 @@
+POST http://localhost:3000/api/v1/register
+Content-Type: application/json
+
+{
+    "name":"mia",
+    "email":"miaa@gmail.com",
+    "password":"sabrina123",
+    "password_confirmation":"sabrina123"
+}
+
+
+###
+POST http://localhost:3000/api/v1/login
+Content-Type: application/json
+
+{
+    "email":"miaaa@gmail.com",
+    "password":"123"
+}
+
+
+###
+POST http://localhost:3000/api/v1/accounts/password/reset
+Content-Type: application/json
+
+{
+    "email":"miaaa@gmail.com"
+    
+}
